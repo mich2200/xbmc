@@ -249,9 +249,14 @@
           <control type="toggle" />
         </setting>
         <setting id="videoplayer.convertdovi" type="boolean" label="39195" help="39196">
-          <requirement>HAS_MEDIACODEC</requirement>
+          <requirement>
+            <or>
+              <condition>HAS_MEDIACODEC</condition>
+              <condition>HAVE_AMCODEC</condition>
+            </or>
+          </requirement>
           <level>2</level>
-          <default>false</default>
+          <default>true</default>
           <updates>
             <update type="change" />
           </updates>
