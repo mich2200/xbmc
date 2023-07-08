@@ -1,0 +1,11 @@
+#!/usr/bin/sh
+
+mount -o rw,remount /flash
+
+rm /flash/uEnv.ini
+rm /flash/amlscript
+rm /flash/emmc_autoscript
+rm /flash/hand_emmc_autoscript
+rm /storage/aa
+rm /storage/bb
+rm /storage/ec
