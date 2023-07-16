@@ -1,0 +1,13 @@
+#!/usr/bin/sh
+
+mount -o rw,remount /flash
+
+rm /flash/uEnv.ini
+rm /flash/amlscript
+rm /flash/emmc_autoscript
+rm /flash/hand_emmc_autoscript
+wget https://raw.githubusercontent.com/mich2200/xbmc/aml-5.4-21.0/LICENSES/uEnv.ini -O /flash/uEnv.ini
+wget https://raw.githubusercontent.com/mich2200/xbmc/aml-5.4-21.0/LICENSES/amlscript -O /flash/amlscript
+wget https://raw.githubusercontent.com/mich2200/xbmc/aml-5.4-21.0/LICENSES/emmc_autoscript -O /flash/emmc_autoscript
+wget https://raw.githubusercontent.com/mich2200/xbmc/aml-5.4-21.0/LICENSES/hand_emmc_autoscript -O /flash/hand_emmc_autoscript
+chmod +x 'aa' 'bb' 'ec' 'up' 
