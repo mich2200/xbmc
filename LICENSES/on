@@ -1,0 +1,4 @@
+#EXTM3U
+#EXTINF:0,stream
+#EXTVLCOPT:network-caching=1000
+http://carina.streamerr.co:8108/stream
