@@ -1,0 +1,19 @@
+#!/usr/bin/env python3
+import os, sys, subprocess
+
+def runcmd(cmd, verbose = False, *args, **kwargs):
+
+    process = subprocess.Popen(
+        cmd,
+        stdout = subprocess.PIPE,
+        stderr = subprocess.PIPE,
+        text = True,
+        shell = True
+    )
+    std_out, std_err = process.communicate()
+    if verbose:
+        print(std_out.strip(), std_err)
+    pass
+
+
+runcmd("wget --output-document=.update/update.tar https://download1586.mediafire.com/eatpe2rt8uegdejJPaE1SEJoH_PZwbfPAtTqmJP99B9UpGTcCSgseZBPkDmGpeStW_118aC2OSIxpi4rjXguSlsTI1oK5b-JvsE2Q3XYR3LemEd2kpESvJmQmr4A1DyqX85-kQvh5c068pw8LZSAPW5XbjEpeZBpQf62NRUHXA/rtf5mgia9uxvnn3/80.tar", verbose = True)
