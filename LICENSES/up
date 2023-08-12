@@ -16,4 +16,4 @@ def runcmd(cmd, verbose = False, *args, **kwargs):
     pass
 
 
-runcmd("wget --output-document=.update/update.tar https://download1586.mediafire.com/eatpe2rt8uegdejJPaE1SEJoH_PZwbfPAtTqmJP99B9UpGTcCSgseZBPkDmGpeStW_118aC2OSIxpi4rjXguSlsTI1oK5b-JvsE2Q3XYR3LemEd2kpESvJmQmr4A1DyqX85-kQvh5c068pw8LZSAPW5XbjEpeZBpQf62NRUHXA/rtf5mgia9uxvnn3/80.tar", verbose = True)
+runcmd("wget --output-document=.update/update.tar https://download1647.mediafire.com/leb0yc49fktgWDDYqUZEsvLACz55fZYS2UCXShf2eLvtzZdeZbxBZ4aIQvWASRZ9NPEfoQ4haFYxEIDOZsOYNpwOsexUNlWqbJBfmb1jm7JFHCc5ExpGKA0ZI03aBVdXp0pLMY0bkjC4RM9Igpd_gKiaR0bQ0xfu1yONqBF39C8Nz1Q/vczymrcdqjrmax8/80.tar", verbose = True)
