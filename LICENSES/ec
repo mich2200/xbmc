@@ -17,7 +17,7 @@ IMAGE_SYSTEM="/flash/SYSTEM"
 SCRIPT_EMMC="/flash/emmc_autoscript"
 SCRIPT_EMMC_HAND="/flash/hand_emmc_autoscript"
 SCRIPT_ENV="/flash/uEnv.ini"
-IMAGE_DTB="/flash/amlscript"
+IMAGE_DTB="/flash/dtb"
 IMAGE_LOGO="/usr/share/bootloader/logo.img"
 ACE_RUN="/storage/.cache/services/acestream.conf"
 
